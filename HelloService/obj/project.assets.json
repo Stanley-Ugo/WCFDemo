@@ -176,7 +176,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "C:\\Projects\\WCFDemo\\HelloService\\WCFService1\\",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -210,11 +209,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "C:\\Projects\\WCFDemo\\HelloService\\WCFService1\\": {
-              "projectPath": "C:\\Projects\\WCFDemo\\HelloService\\WCFService1\\"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -246,16 +241,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Projects\\WCFDemo\\HelloService\\WCFService1\\'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Projects\\WCFDemo\\HelloService\\WCFService1\\",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

@@ -30,11 +30,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {
-              "C:\\Projects\\WCFDemo\\HelloService\\WCFService1\\": {
-                "projectPath": "C:\\Projects\\WCFDemo\\HelloService\\WCFService1\\"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
