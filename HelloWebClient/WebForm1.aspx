@@ -8,7 +8,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div style="font-family:Arial">
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" Text="Get Message" OnClick="Button1_Click" />
+            <br />
+            <asp:Label ID="Label1" runat="server" Font-Bold="true"></asp:Label>
         </div>
     </form>
 </body>

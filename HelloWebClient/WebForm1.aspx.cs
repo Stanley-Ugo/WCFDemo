@@ -13,5 +13,12 @@ namespace HelloWebClient
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            HelloService.HelloServiceClient client = new HelloService.HelloServiceClient("BasicHttpBinding_IHelloService");
+            Label1.Text = client.GetMessage(TextBox1.Text);
+
+        }
     }
 }
