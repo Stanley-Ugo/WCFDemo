@@ -53,5 +53,11 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HelloService\HelloService.csproj">
+      <Project>{ebff5fae-0406-4134-9e5f-79a1f5d9b6a2}</Project>
+      <Name>HelloService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

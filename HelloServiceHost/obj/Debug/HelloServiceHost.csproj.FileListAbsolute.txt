@@ -5,3 +5,7 @@ C:\Projects\WCFDemo\HelloServiceHost\obj\Debug\HelloServiceHost.csprojAssemblyRe
 C:\Projects\WCFDemo\HelloServiceHost\obj\Debug\HelloServiceHost.csproj.CoreCompileInputs.cache
 C:\Projects\WCFDemo\HelloServiceHost\obj\Debug\HelloServiceHost.exe
 C:\Projects\WCFDemo\HelloServiceHost\obj\Debug\HelloServiceHost.pdb
+C:\Projects\WCFDemo\HelloServiceHost\bin\Debug\HelloService.dll
+C:\Projects\WCFDemo\HelloServiceHost\bin\Debug\HelloService.pdb
+C:\Projects\WCFDemo\HelloServiceHost\bin\Debug\HelloService.dll.config
+C:\Projects\WCFDemo\HelloServiceHost\obj\Debug\HelloServiceHost.csproj.CopyComplete
