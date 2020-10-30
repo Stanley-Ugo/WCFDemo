@@ -1,0 +1,7 @@
+C:\Projects\WCFDemo\HelloServiceHost\bin\Debug\HelloServiceHost.exe.config
+C:\Projects\WCFDemo\HelloServiceHost\bin\Debug\HelloServiceHost.exe
+C:\Projects\WCFDemo\HelloServiceHost\bin\Debug\HelloServiceHost.pdb
+C:\Projects\WCFDemo\HelloServiceHost\obj\Debug\HelloServiceHost.csprojAssemblyReference.cache
+C:\Projects\WCFDemo\HelloServiceHost\obj\Debug\HelloServiceHost.csproj.CoreCompileInputs.cache
+C:\Projects\WCFDemo\HelloServiceHost\obj\Debug\HelloServiceHost.exe
+C:\Projects\WCFDemo\HelloServiceHost\obj\Debug\HelloServiceHost.pdb
