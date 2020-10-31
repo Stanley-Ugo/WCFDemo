@@ -16,6 +16,7 @@ namespace CompanyService
 
     }
 
+    [ServiceContract]
     public interface ICompanyConfidentialService
     {
         [OperationContract]

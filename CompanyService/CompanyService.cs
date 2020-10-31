@@ -10,14 +10,14 @@ namespace CompanyService
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "CompanyService" in both code and config file together.
     public class CompanyService : ICompanyPublicService, ICompanyConfidentialService
     {
-        public string GetConfidentialInformation()
-        {
-            return "This is a public information over HTTP available over the firewall";
-        }
-
         public string GetPublicInformation()
         {
             return "This is Confidential information only available over TCP Inside the Firewall";
+        }
+
+        public string GetConfidentialInformation()
+        {
+            return "This is a public information over HTTP available over the firewall";
         }
     }
 }

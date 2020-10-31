@@ -1,0 +1,11 @@
+C:\Projects\WCFDemo\CompanyServiceHost\bin\Debug\CompanyServiceHost.exe.config
+C:\Projects\WCFDemo\CompanyServiceHost\bin\Debug\CompanyServiceHost.exe
+C:\Projects\WCFDemo\CompanyServiceHost\bin\Debug\CompanyServiceHost.pdb
+C:\Projects\WCFDemo\CompanyServiceHost\bin\Debug\CompanyService.dll
+C:\Projects\WCFDemo\CompanyServiceHost\bin\Debug\CompanyService.pdb
+C:\Projects\WCFDemo\CompanyServiceHost\bin\Debug\CompanyService.dll.config
+C:\Projects\WCFDemo\CompanyServiceHost\obj\Debug\CompanyServiceHost.csprojAssemblyReference.cache
+C:\Projects\WCFDemo\CompanyServiceHost\obj\Debug\CompanyServiceHost.csproj.CoreCompileInputs.cache
+C:\Projects\WCFDemo\CompanyServiceHost\obj\Debug\CompanyServiceHost.csproj.CopyComplete
+C:\Projects\WCFDemo\CompanyServiceHost\obj\Debug\CompanyServiceHost.exe
+C:\Projects\WCFDemo\CompanyServiceHost\obj\Debug\CompanyServiceHost.pdb
