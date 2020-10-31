@@ -8,24 +8,16 @@ using System.Text;
 namespace CompanyService
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "CompanyService" in both code and config file together.
-    public class CompanyService : ICompanyService
+    public class CompanyService : ICompanyPublicService, ICompanyConfidentialService
     {
-        public string GetData(int value)
+        public string GetConfidentialInformation()
         {
-            return string.Format("You entered: {0}", value);
+            return "This is a public information over HTTP available over the firewall";
         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
+        public string GetPublicInformation()
         {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
-            }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
+            return "This is Confidential information only available over TCP Inside the Firewall";
         }
     }
 }
