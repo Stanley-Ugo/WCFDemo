@@ -1,0 +1,11 @@
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\bin\Debug\EmployeeWCFServiceHost.exe.config
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\bin\Debug\EmployeeWCFServiceHost.exe
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\bin\Debug\EmployeeWCFServiceHost.pdb
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\obj\Debug\EmployeeWCFServiceHost.csprojAssemblyReference.cache
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\obj\Debug\EmployeeWCFServiceHost.csproj.CoreCompileInputs.cache
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\obj\Debug\EmployeeWCFServiceHost.exe
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\obj\Debug\EmployeeWCFServiceHost.pdb
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\bin\Debug\EmployeeWCFService.dll
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\bin\Debug\EmployeeWCFService.pdb
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\bin\Debug\EmployeeWCFService.dll.config
+C:\Projects\WCFDemo\EmployeeWCFServiceHost\obj\Debug\EmployeeWCFServiceHost.csproj.CopyComplete
