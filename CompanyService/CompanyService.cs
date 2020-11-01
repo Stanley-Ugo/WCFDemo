@@ -12,12 +12,12 @@ namespace CompanyService
     {
         public string GetPublicInformation()
         {
-            return "This is Confidential information only available over TCP Inside the Firewall";
+            return "This is Public information only available over TCP Inside the Firewall";
         }
 
         public string GetConfidentialInformation()
         {
-            return "This is a public information over HTTP available over the firewall";
+            return "This is a Confidential information over HTTP available over the firewall";
         }
     }
 }
