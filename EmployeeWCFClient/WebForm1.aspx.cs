@@ -30,7 +30,7 @@ namespace EmployeeWCFClient
             EmployeeWCFService.EmployeeWCFServiceClient client = new EmployeeWCFService.EmployeeWCFServiceClient();
             EmployeeWCFService.Employee employee = new EmployeeWCFService.Employee();
 
-            employee.Id = Convert.ToInt32(txtID.Text);
+            employee.ID = Convert.ToInt32(txtID.Text);
             employee.Name = txtName.Text;
             employee.Gender = txtGender.Text;
             employee.DateOfBirth = Convert.ToDateTime(txtDateOfBirth.Text);
