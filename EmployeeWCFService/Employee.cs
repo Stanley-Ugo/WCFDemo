@@ -17,7 +17,7 @@ namespace EmployeeWCFService
         private string _gender;
         private DateTime _dateOfBirth;
 
-        [DataMember( Name = "ID", Order = 1 )]
+        
         public int Id
         {
             get { return _id; }
