@@ -24,7 +24,7 @@ namespace EmployeeWCFService
             set { _id = value; }
         }
 
-        
+        [DataMember( Order = 2 )]
         public string Name
         {
             get { return _name; }
