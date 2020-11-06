@@ -12,7 +12,7 @@ public interface IGreetingServiceIIS
 {
 
 	[OperationContract]
-	string GetData(int value);
+	string GetGreeting(string name);
 
 	[OperationContract]
 	CompositeType GetDataUsingDataContract(CompositeType composite);
