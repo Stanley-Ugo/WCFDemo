@@ -14,19 +14,6 @@ public class GreetingServiceIIS: IGreetingServiceIIS
 		return "Greetings " + name;
 	}
 
-	public CompositeType GetDataUsingDataContract(CompositeType composite)
-	{
-		if (composite == null)
-		{
-			throw new ArgumentNullException("composite");
-		}
-		if (composite.BoolValue)
-		{
-			composite.StringValue += "Suffix";
-		}
-		return composite;
-	}
-
     public string SendGreeting(string name)
     {
 		return "Hello " + name;
