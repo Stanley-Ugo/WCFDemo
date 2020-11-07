@@ -26,4 +26,9 @@ public class GreetingServiceIIS: IGreetingServiceIIS
 		}
 		return composite;
 	}
+
+    public string SendGreeting(string name)
+    {
+		return "Hello " + name;
+    }
 }
