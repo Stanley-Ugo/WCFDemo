@@ -15,6 +15,9 @@ public interface IGreetingServiceIIS
 	string GetGreeting(string name);
 
 	[OperationContract]
+	string SendGreeting(string name);
+
+	[OperationContract]
 	CompositeType GetDataUsingDataContract(CompositeType composite);
 
 	// TODO: Add your service operations here
