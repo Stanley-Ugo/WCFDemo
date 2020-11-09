@@ -53,13 +53,7 @@ namespace EmployeeWCFService
                 };
                 cmd.Parameters.Add(parameterId);
 
-                SqlParameter parameterName = new SqlParameter
-                {
-                    ParameterName = "@Name",
-                    Value = employee.Name
-                };
-                cmd.Parameters.Add(parameterName);
-
+                
                 SqlParameter parameterGender = new SqlParameter
                 {
                     ParameterName = "@Gender",
