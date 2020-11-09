@@ -46,7 +46,12 @@ namespace EmployeeWCFService
             {
                 SqlCommand cmd = new SqlCommand("spSaveEmployeeWCF", con);
                 cmd.CommandType = CommandType.StoredProcedure;
-                
+                SqlParameter parameterId = new SqlParameter
+                {
+                    ParameterName = "@Id",
+                    Value = employee.Id
+                };
+                cmd.Parameters.Add(parameterId);
 
                 SqlParameter parameterName = new SqlParameter
                 {
