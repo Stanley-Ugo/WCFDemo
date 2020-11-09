@@ -60,7 +60,12 @@ namespace EmployeeWCFService
                 };
                 cmd.Parameters.Add(parameterName);
 
-                
+                SqlParameter parameterGender = new SqlParameter
+                {
+                    ParameterName = "@Gender",
+                    Value = employee.Gender
+                };
+                cmd.Parameters.Add(parameterGender);
 
                 SqlParameter parameterDateOfBirth = new SqlParameter
                 {
